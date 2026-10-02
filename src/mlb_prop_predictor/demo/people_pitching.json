@@ -1,0 +1,248 @@
+{
+ "people": [
+  {
+   "id": 200009,
+   "fullName": "Jett Mockley",
+   "batSide": {
+    "code": "R"
+   },
+   "pitchHand": {
+    "code": "R"
+   },
+   "stats": [
+    {
+     "type": {
+      "displayName": "season"
+     },
+     "group": {
+      "displayName": "pitching"
+     },
+     "splits": [
+      {
+       "stat": {
+        "battersFaced": 336,
+        "homeRuns": 12,
+        "strikeOuts": 76,
+        "gamesPlayed": 15,
+        "gamesStarted": 15
+       }
+      }
+     ]
+    },
+    {
+     "type": {
+      "displayName": "statSplits"
+     },
+     "group": {
+      "displayName": "pitching"
+     },
+     "splits": [
+      {
+       "split": {
+        "code": "vl"
+       },
+       "stat": {
+        "battersFaced": 151,
+        "homeRuns": 5,
+        "strikeOuts": 33
+       }
+      },
+      {
+       "split": {
+        "code": "vr"
+       },
+       "stat": {
+        "battersFaced": 185,
+        "homeRuns": 7,
+        "strikeOuts": 43
+       }
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": 200019,
+   "fullName": "Ty Trialer",
+   "batSide": {
+    "code": "R"
+   },
+   "pitchHand": {
+    "code": "R"
+   },
+   "stats": [
+    {
+     "type": {
+      "displayName": "season"
+     },
+     "group": {
+      "displayName": "pitching"
+     },
+     "splits": [
+      {
+       "stat": {
+        "battersFaced": 350,
+        "homeRuns": 13,
+        "strikeOuts": 67,
+        "gamesPlayed": 14,
+        "gamesStarted": 14
+       }
+      }
+     ]
+    },
+    {
+     "type": {
+      "displayName": "statSplits"
+     },
+     "group": {
+      "displayName": "pitching"
+     },
+     "splits": [
+      {
+       "split": {
+        "code": "vl"
+       },
+       "stat": {
+        "battersFaced": 158,
+        "homeRuns": 6,
+        "strikeOuts": 29
+       }
+      },
+      {
+       "split": {
+        "code": "vr"
+       },
+       "stat": {
+        "battersFaced": 192,
+        "homeRuns": 7,
+        "strikeOuts": 38
+       }
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": 200029,
+   "fullName": "Dom Mockley",
+   "batSide": {
+    "code": "R"
+   },
+   "pitchHand": {
+    "code": "R"
+   },
+   "stats": [
+    {
+     "type": {
+      "displayName": "season"
+     },
+     "group": {
+      "displayName": "pitching"
+     },
+     "splits": [
+      {
+       "stat": {
+        "battersFaced": 427,
+        "homeRuns": 17,
+        "strikeOuts": 121,
+        "gamesPlayed": 18,
+        "gamesStarted": 18
+       }
+      }
+     ]
+    },
+    {
+     "type": {
+      "displayName": "statSplits"
+     },
+     "group": {
+      "displayName": "pitching"
+     },
+     "splits": [
+      {
+       "split": {
+        "code": "vl"
+       },
+       "stat": {
+        "battersFaced": 192,
+        "homeRuns": 8,
+        "strikeOuts": 52
+       }
+      },
+      {
+       "split": {
+        "code": "vr"
+       },
+       "stat": {
+        "battersFaced": 235,
+        "homeRuns": 9,
+        "strikeOuts": 69
+       }
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": 200039,
+   "fullName": "Nico Trialer",
+   "batSide": {
+    "code": "R"
+   },
+   "pitchHand": {
+    "code": "L"
+   },
+   "stats": [
+    {
+     "type": {
+      "displayName": "season"
+     },
+     "group": {
+      "displayName": "pitching"
+     },
+     "splits": [
+      {
+       "stat": {
+        "battersFaced": 385,
+        "homeRuns": 13,
+        "strikeOuts": 106,
+        "gamesPlayed": 19,
+        "gamesStarted": 19
+       }
+      }
+     ]
+    },
+    {
+     "type": {
+      "displayName": "statSplits"
+     },
+     "group": {
+      "displayName": "pitching"
+     },
+     "splits": [
+      {
+       "split": {
+        "code": "vl"
+       },
+       "stat": {
+        "battersFaced": 173,
+        "homeRuns": 6,
+        "strikeOuts": 46
+       }
+      },
+      {
+       "split": {
+        "code": "vr"
+       },
+       "stat": {
+        "battersFaced": 212,
+        "homeRuns": 7,
+        "strikeOuts": 60
+       }
+      }
+     ]
+    }
+   ]
+  }
+ ]
+}

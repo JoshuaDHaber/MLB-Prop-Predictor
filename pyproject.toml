@@ -1,0 +1,50 @@
+[build-system]
+requires = ["setuptools>=68", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "mlb-prop-predictor"
+version = "0.2.0"
+description = "Daily MLB home run and pitcher strikeout projections built from free public data, compared against sportsbook lines."
+readme = "README.md"
+requires-python = ">=3.9"
+authors = [{ name = "Joshua Haber" }]
+keywords = ["mlb", "baseball", "statcast", "sports-analytics", "player-props"]
+classifiers = [
+  "Programming Language :: Python :: 3",
+  "Programming Language :: Python :: 3 :: Only",
+  "Operating System :: OS Independent",
+  "Topic :: Scientific/Engineering :: Information Analysis",
+]
+# Runtime uses the standard library only.
+dependencies = []
+
+[project.optional-dependencies]
+dev = ["pytest>=7", "ruff>=0.4"]
+
+[project.scripts]
+mlb-props = "mlb_prop_predictor.cli:main"
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.setuptools.package-data]
+mlb_prop_predictor = ["demo/*.json", "demo/*.csv"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+pythonpath = ["src"]
+
+[tool.ruff]
+line-length = 110
+target-version = "py39"
+src = ["src", "tests"]
+
+[tool.ruff.lint]
+select = ["E", "F", "W", "I", "B", "UP", "SIM"]
+# zip(strict=...) needs Python 3.10; this project supports 3.9.
+ignore = ["B905"]
+
+[tool.ruff.lint.per-file-ignores]
+# Embedded HTML/CSS templates read better unwrapped.
+"src/mlb_prop_predictor/report/writers.py" = ["E501"]

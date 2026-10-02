@@ -1,0 +1,409 @@
+{
+ "id": "demo700002",
+ "bookmakers": [
+  {
+   "key": "demobook",
+   "title": "DemoBook",
+   "markets": [
+    {
+     "key": "batter_home_runs",
+     "outcomes": [
+      {
+       "name": "Over",
+       "description": "Ugo Demo",
+       "point": 0.5,
+       "price": 651
+      },
+      {
+       "name": "Under",
+       "description": "Ugo Demo",
+       "point": 0.5,
+       "price": -1035
+      },
+      {
+       "name": "Over",
+       "description": "Vic Example",
+       "point": 0.5,
+       "price": 598
+      },
+      {
+       "name": "Under",
+       "description": "Vic Example",
+       "point": 0.5,
+       "price": -918
+      },
+      {
+       "name": "Over",
+       "description": "Wes Prototyp",
+       "point": 0.5,
+       "price": 343
+      },
+      {
+       "name": "Under",
+       "description": "Wes Prototyp",
+       "point": 0.5,
+       "price": -454
+      },
+      {
+       "name": "Over",
+       "description": "Xan Sample",
+       "point": 0.5,
+       "price": 496
+      },
+      {
+       "name": "Under",
+       "description": "Xan Sample",
+       "point": 0.5,
+       "price": -714
+      },
+      {
+       "name": "Over",
+       "description": "Yuri Dummy",
+       "point": 0.5,
+       "price": 541
+      },
+      {
+       "name": "Under",
+       "description": "Yuri Dummy",
+       "point": 0.5,
+       "price": -801
+      },
+      {
+       "name": "Over",
+       "description": "Zed Imitato",
+       "point": 0.5,
+       "price": 331
+      },
+      {
+       "name": "Under",
+       "description": "Zed Imitato",
+       "point": 0.5,
+       "price": -435
+      },
+      {
+       "name": "Over",
+       "description": "Abe Fixture",
+       "point": 0.5,
+       "price": 487
+      },
+      {
+       "name": "Under",
+       "description": "Abe Fixture",
+       "point": 0.5,
+       "price": -698
+      },
+      {
+       "name": "Over",
+       "description": "Ben Proto",
+       "point": 0.5,
+       "price": 313
+      },
+      {
+       "name": "Under",
+       "description": "Ben Proto",
+       "point": 0.5,
+       "price": -408
+      },
+      {
+       "name": "Over",
+       "description": "Cy Modelo",
+       "point": 0.5,
+       "price": 331
+      },
+      {
+       "name": "Under",
+       "description": "Cy Modelo",
+       "point": 0.5,
+       "price": -434
+      },
+      {
+       "name": "Over",
+       "description": "Ezra Stubbs",
+       "point": 0.5,
+       "price": 543
+      },
+      {
+       "name": "Under",
+       "description": "Ezra Stubbs",
+       "point": 0.5,
+       "price": -804
+      },
+      {
+       "name": "Over",
+       "description": "Flynn Draftsman",
+       "point": 0.5,
+       "price": 234
+      },
+      {
+       "name": "Under",
+       "description": "Flynn Draftsman",
+       "point": 0.5,
+       "price": -293
+      },
+      {
+       "name": "Over",
+       "description": "Gil Testa",
+       "point": 0.5,
+       "price": 395
+      },
+      {
+       "name": "Under",
+       "description": "Gil Testa",
+       "point": 0.5,
+       "price": -536
+      },
+      {
+       "name": "Over",
+       "description": "Hal Fakeson",
+       "point": 0.5,
+       "price": 305
+      },
+      {
+       "name": "Under",
+       "description": "Hal Fakeson",
+       "point": 0.5,
+       "price": -395
+      },
+      {
+       "name": "Over",
+       "description": "Ira Pilotti",
+       "point": 0.5,
+       "price": 405
+      },
+      {
+       "name": "Under",
+       "description": "Ira Pilotti",
+       "point": 0.5,
+       "price": -553
+      },
+      {
+       "name": "Over",
+       "description": "Jax Placeholder",
+       "point": 0.5,
+       "price": 298
+      },
+      {
+       "name": "Under",
+       "description": "Jax Placeholder",
+       "point": 0.5,
+       "price": -385
+      },
+      {
+       "name": "Over",
+       "description": "Kip Specimen",
+       "point": 0.5,
+       "price": 431
+      },
+      {
+       "name": "Under",
+       "description": "Kip Specimen",
+       "point": 0.5,
+       "price": -598
+      },
+      {
+       "name": "Over",
+       "description": "Leo Sandbox",
+       "point": 0.5,
+       "price": 661
+      },
+      {
+       "name": "Under",
+       "description": "Leo Sandbox",
+       "point": 0.5,
+       "price": -1057
+      },
+      {
+       "name": "Over",
+       "description": "Mack Synth",
+       "point": 0.5,
+       "price": 342
+      },
+      {
+       "name": "Under",
+       "description": "Mack Synth",
+       "point": 0.5,
+       "price": -452
+      }
+     ]
+    },
+    {
+     "key": "pitcher_strikeouts",
+     "outcomes": [
+      {
+       "name": "Over",
+       "description": "Dom Mockley",
+       "point": 4.5,
+       "price": -110
+      },
+      {
+       "name": "Under",
+       "description": "Dom Mockley",
+       "point": 4.5,
+       "price": -108
+      },
+      {
+       "name": "Over",
+       "description": "Nico Trialer",
+       "point": 6.5,
+       "price": 113
+      },
+      {
+       "name": "Under",
+       "description": "Nico Trialer",
+       "point": 6.5,
+       "price": -136
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "key": "samplesports",
+   "title": "SampleSports",
+   "markets": [
+    {
+     "key": "batter_home_runs",
+     "outcomes": [
+      {
+       "name": "Over",
+       "description": "Ugo Demo",
+       "point": 0.5,
+       "price": 696
+      },
+      {
+       "name": "Over",
+       "description": "Vic Example",
+       "point": 0.5,
+       "price": 549
+      },
+      {
+       "name": "Over",
+       "description": "Wes Prototyp",
+       "point": 0.5,
+       "price": 345
+      },
+      {
+       "name": "Over",
+       "description": "Xan Sample",
+       "point": 0.5,
+       "price": 434
+      },
+      {
+       "name": "Over",
+       "description": "Yuri Dummy",
+       "point": 0.5,
+       "price": 535
+      },
+      {
+       "name": "Over",
+       "description": "Zed Imitato",
+       "point": 0.5,
+       "price": 231
+      },
+      {
+       "name": "Over",
+       "description": "Abe Fixture",
+       "point": 0.5,
+       "price": 579
+      },
+      {
+       "name": "Over",
+       "description": "Ben Proto",
+       "point": 0.5,
+       "price": 396
+      },
+      {
+       "name": "Over",
+       "description": "Cy Modelo",
+       "point": 0.5,
+       "price": 467
+      },
+      {
+       "name": "Over",
+       "description": "Ezra Stubbs",
+       "point": 0.5,
+       "price": 445
+      },
+      {
+       "name": "Over",
+       "description": "Flynn Draftsman",
+       "point": 0.5,
+       "price": 338
+      },
+      {
+       "name": "Over",
+       "description": "Gil Testa",
+       "point": 0.5,
+       "price": 409
+      },
+      {
+       "name": "Over",
+       "description": "Hal Fakeson",
+       "point": 0.5,
+       "price": 316
+      },
+      {
+       "name": "Over",
+       "description": "Ira Pilotti",
+       "point": 0.5,
+       "price": 326
+      },
+      {
+       "name": "Over",
+       "description": "Jax Placeholder",
+       "point": 0.5,
+       "price": 227
+      },
+      {
+       "name": "Over",
+       "description": "Kip Specimen",
+       "point": 0.5,
+       "price": 359
+      },
+      {
+       "name": "Over",
+       "description": "Leo Sandbox",
+       "point": 0.5,
+       "price": 594
+      },
+      {
+       "name": "Over",
+       "description": "Mack Synth",
+       "point": 0.5,
+       "price": 336
+      }
+     ]
+    },
+    {
+     "key": "pitcher_strikeouts",
+     "outcomes": [
+      {
+       "name": "Over",
+       "description": "Dom Mockley",
+       "point": 5.5,
+       "price": 133
+      },
+      {
+       "name": "Under",
+       "description": "Dom Mockley",
+       "point": 5.5,
+       "price": -170
+      },
+      {
+       "name": "Over",
+       "description": "Nico Trialer",
+       "point": 5.5,
+       "price": -139
+      },
+      {
+       "name": "Under",
+       "description": "Nico Trialer",
+       "point": 5.5,
+       "price": 109
+      }
+     ]
+    }
+   ]
+  }
+ ]
+}

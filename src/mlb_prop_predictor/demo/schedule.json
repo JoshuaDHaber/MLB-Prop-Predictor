@@ -1,0 +1,177 @@
+{
+ "dates": [
+  {
+   "date": "2026-07-04",
+   "games": [
+    {
+     "gamePk": 700001,
+     "gameDate": "2026-07-04T23:05:00Z",
+     "status": {
+      "detailedState": "Scheduled"
+     },
+     "teams": {
+      "away": {
+       "team": {
+        "id": 9002,
+        "name": "Ridgeview Rockets",
+        "teamName": "Rockets"
+       },
+       "probablePitcher": {
+        "id": 200019,
+        "fullName": "Ty Trialer"
+       }
+      },
+      "home": {
+       "team": {
+        "id": 9001,
+        "name": "Harbor City Herons",
+        "teamName": "Herons"
+       },
+       "probablePitcher": {
+        "id": 200009,
+        "fullName": "Jett Mockley"
+       }
+      }
+     },
+     "venue": {
+      "id": 8001,
+      "name": "Lighthouse Field",
+      "location": {
+       "defaultCoordinates": {
+        "latitude": 41.0,
+        "longitude": -73.5
+       },
+       "elevation": 500
+      },
+      "fieldInfo": {
+       "roofType": "Open"
+      }
+     },
+     "lineups": {
+      "awayPlayers": [
+       {
+        "id": 100010,
+        "fullName": "Kai Stubbs"
+       },
+       {
+        "id": 100011,
+        "fullName": "Lou Draftsman"
+       },
+       {
+        "id": 100012,
+        "fullName": "Max Testa"
+       },
+       {
+        "id": 100013,
+        "fullName": "Ned Fakeson"
+       },
+       {
+        "id": 100014,
+        "fullName": "Otis Pilotti"
+       },
+       {
+        "id": 100015,
+        "fullName": "Pax Placeholder"
+       },
+       {
+        "id": 100016,
+        "fullName": "Quin Specimen"
+       },
+       {
+        "id": 100017,
+        "fullName": "Rex Sandbox"
+       },
+       {
+        "id": 100018,
+        "fullName": "Sal Synth"
+       }
+      ],
+      "homePlayers": [
+       {
+        "id": 100000,
+        "fullName": "Ace Demo"
+       },
+       {
+        "id": 100001,
+        "fullName": "Bo Example"
+       },
+       {
+        "id": 100002,
+        "fullName": "Cal Prototyp"
+       },
+       {
+        "id": 100003,
+        "fullName": "Dex Sample"
+       },
+       {
+        "id": 100004,
+        "fullName": "Eli Dummy"
+       },
+       {
+        "id": 100005,
+        "fullName": "Finn Imitato"
+       },
+       {
+        "id": 100006,
+        "fullName": "Gus Fixture"
+       },
+       {
+        "id": 100007,
+        "fullName": "Hank Proto"
+       },
+       {
+        "id": 100008,
+        "fullName": "Ike Modelo"
+       }
+      ]
+     }
+    },
+    {
+     "gamePk": 700002,
+     "gameDate": "2026-07-05T01:40:00Z",
+     "status": {
+      "detailedState": "Scheduled"
+     },
+     "teams": {
+      "away": {
+       "team": {
+        "id": 9004,
+        "name": "Summit Peaks",
+        "teamName": "Peaks"
+       },
+       "probablePitcher": {
+        "id": 200039,
+        "fullName": "Nico Trialer"
+       }
+      },
+      "home": {
+       "team": {
+        "id": 9003,
+        "name": "Portside Pilots",
+        "teamName": "Pilots"
+       },
+       "probablePitcher": {
+        "id": 200029,
+        "fullName": "Dom Mockley"
+       }
+      }
+     },
+     "venue": {
+      "id": 8003,
+      "name": "Pier 9 Park",
+      "location": {
+       "defaultCoordinates": {
+        "latitude": 33.4,
+        "longitude": -112.0
+       },
+       "elevation": 500
+      },
+      "fieldInfo": {
+       "roofType": "Retractable"
+      }
+     }
+    }
+   ]
+  }
+ ]
+}
