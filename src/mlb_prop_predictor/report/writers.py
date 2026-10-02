@@ -26,9 +26,9 @@ def _signed_pct(x: float | None) -> str:
 
 def _table(headers: list[str], rows: list[list[str]]) -> str:
     widths = [max(len(h), *(len(r[i]) for r in rows)) if rows else len(h) for i, h in enumerate(headers)]
-    line = "  ".join(h.ljust(w) for h, w in zip(headers, widths, strict=True))
+    line = "  ".join(h.ljust(w) for h, w in zip(headers, widths))
     out = [line, "  ".join("-" * w for w in widths)]
-    out += ["  ".join(c.ljust(w) for c, w in zip(r, widths, strict=True)) for r in rows]
+    out += ["  ".join(c.ljust(w) for c, w in zip(r, widths)) for r in rows]
     return "\n".join(out)
 
 

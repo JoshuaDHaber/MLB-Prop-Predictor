@@ -90,7 +90,7 @@ def project_strikeouts(
 
     max_k = max(bf_values) + 1
     mixture = [0.0] * max_k
-    for bf, w in zip(bf_values, weights, strict=True):
+    for bf, w in zip(bf_values, weights):
         dist = poisson_binomial([per_slot[i % 9] for i in range(bf)])
         for n, p in enumerate(dist):
             mixture[n] += w * p

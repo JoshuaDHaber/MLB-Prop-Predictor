@@ -16,6 +16,7 @@ game-time temperature, and model each starter's full strikeout distribution. See
 git clone https://github.com/JoshuaDHaber/MLB-Prop-Predictor.git
 cd MLB-Prop-Predictor
 python3 -m venv .venv && source .venv/bin/activate
+python -m pip install --upgrade pip   # macOS's built-in pip is too old for editable installs
 pip install -e .
 mlb-props --demo --open
 ```
@@ -83,7 +84,7 @@ docs/METHODOLOGY.md
 ```
 
 Design notes:
-- **Zero runtime dependencies.** Standard library only, so it installs anywhere with Python 3.10+.
+- **Zero runtime dependencies.** Standard library only, so it installs anywhere with Python 3.9+.
 - **Sources are injectable.** Every source takes an `HttpClient`, so tests and demo mode run offline.
 - **Models are pure functions.** They're unit-tested for calibration: a league-average matchup
   reproduces league-average rates.
