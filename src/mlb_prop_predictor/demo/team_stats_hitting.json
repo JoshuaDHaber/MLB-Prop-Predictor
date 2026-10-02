@@ -1,0 +1,120 @@
+{
+ "stats": [
+  {
+   "splits": [
+    {
+     "team": {
+      "id": 9001,
+      "name": "Harbor City Herons"
+     },
+     "split": {
+      "code": "h"
+     },
+     "stat": {
+      "plateAppearances": 2999,
+      "homeRuns": 110,
+      "strikeOuts": 652
+     }
+    },
+    {
+     "team": {
+      "id": 9001,
+      "name": "Harbor City Herons"
+     },
+     "split": {
+      "code": "a"
+     },
+     "stat": {
+      "plateAppearances": 3045,
+      "homeRuns": 91,
+      "strikeOuts": 676
+     }
+    },
+    {
+     "team": {
+      "id": 9002,
+      "name": "Ridgeview Rockets"
+     },
+     "split": {
+      "code": "h"
+     },
+     "stat": {
+      "plateAppearances": 3053,
+      "homeRuns": 87,
+      "strikeOuts": 698
+     }
+    },
+    {
+     "team": {
+      "id": 9002,
+      "name": "Ridgeview Rockets"
+     },
+     "split": {
+      "code": "a"
+     },
+     "stat": {
+      "plateAppearances": 3045,
+      "homeRuns": 91,
+      "strikeOuts": 676
+     }
+    },
+    {
+     "team": {
+      "id": 9003,
+      "name": "Portside Pilots"
+     },
+     "split": {
+      "code": "h"
+     },
+     "stat": {
+      "plateAppearances": 2978,
+      "homeRuns": 91,
+      "strikeOuts": 661
+     }
+    },
+    {
+     "team": {
+      "id": 9003,
+      "name": "Portside Pilots"
+     },
+     "split": {
+      "code": "a"
+     },
+     "stat": {
+      "plateAppearances": 3010,
+      "homeRuns": 90,
+      "strikeOuts": 668
+     }
+    },
+    {
+     "team": {
+      "id": 9004,
+      "name": "Summit Peaks"
+     },
+     "split": {
+      "code": "h"
+     },
+     "stat": {
+      "plateAppearances": 2947,
+      "homeRuns": 115,
+      "strikeOuts": 608
+     }
+    },
+    {
+     "team": {
+      "id": 9004,
+      "name": "Summit Peaks"
+     },
+     "split": {
+      "code": "a"
+     },
+     "stat": {
+      "plateAppearances": 3036,
+      "homeRuns": 91,
+      "strikeOuts": 674
+     }
+    }
+   ]
+  }
+ ]
+}

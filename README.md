@@ -1,83 +1,104 @@
 # MLB Prop Predictor
 
-A single-file Python tool that pulls MLB matchup data from a PropFinder-compatible API, scores the day's slate, and writes a ranked report of the most promising player and game props.
+[![CI](https://github.com/JoshuaDHaber/MLB-Prop-Predictor/actions/workflows/ci.yml/badge.svg)](https://github.com/JoshuaDHaber/MLB-Prop-Predictor/actions/workflows/ci.yml)
 
-## What it produces
+Daily **home run** and **pitcher strikeout** projections for every MLB game. They're built from
+free public data and compared against sportsbook lines to surface potential edges.
 
-- **Home run props:** batters ranked by a composite score built from matchup data, odds-implied probability, ballpark factor, weather, and pitcher HR risk
-- **Hits / runs / RBIs:** a secondary ranking of batters
-- **Pitcher strikeouts:** starters ranked by expected strikeouts against the opposing lineup
-- **Team totals:** expected runs per team
-- **NRFI / YRFI:** first-inning probabilities that blend recent pitcher form with season splits
+The models are written from scratch. They regress small samples toward the mean, combine
+batter and pitcher with the log5 method, compute park factors from home/road splits, adjust for
+game-time temperature, and model each starter's full strikeout distribution. See
+[docs/METHODOLOGY.md](docs/METHODOLOGY.md) for the details.
 
-Reports are written as JSON, CSV, or text, plus an HTML report that opens in your browser. Batting-order positions are added once lineups are posted.
-
-## Requirements
-
-- Python 3.9+ (standard library only, nothing to `pip install`)
-- A PropFinder account, which the live API calls need
-- macOS with Google Chrome, but only if you use `--browser-login`
-
-## Quick start
-
-Try it with built-in demo data, no account needed:
+## Try it in 10 seconds (no API keys, no network)
 
 ```bash
-python3 propfinder.py --sample --limit 10
+git clone https://github.com/JoshuaDHaber/MLB-Prop-Predictor.git
+cd MLB-Prop-Predictor
+python3 -m venv .venv && source .venv/bin/activate
+pip install -e .
+mlb-props --demo --open
 ```
 
-## Authentication
+`--demo` runs the whole pipeline on a bundled slate of **fictional** teams and players.
 
-The script needs your PropFinder session, supplied in one of these ways (checked in this order):
-
-1. **Browser login (macOS + Chrome).** Log in to propfinder.app in Chrome, then run:
-   ```bash
-   python3 propfinder.py --browser-login
-   ```
-   This reads your PropFinder cookies from Chrome and saves them to `propfinder-auth.json`. macOS will ask for Keychain access.
-2. **Environment variables:**
-   ```bash
-   export PROPFINDER_BASE_URL="https://api.propfinder.app"
-   export PROPFINDER_COOKIE="accessToken=...; refreshToken=..."
-   # or PROPFINDER_TOKEN / PROPFINDER_API_KEY
-   ```
-3. **Config file:** copy the template and fill it in:
-   ```bash
-   cp propfinder-config.example.json propfinder-config.json
-   ```
-
-> ⚠️ `propfinder-config.json`, `propfinder-auth.json`, and any `.har` files contain your login session. They are listed in `.gitignore`. **Never commit them.**
-
-## Usage
+## Run it for real
 
 ```bash
-# Today's slate with your saved auth
-python3 propfinder.py
-
-# A specific date, top 20, CSV output
-python3 propfinder.py --dates 2026-07-05 --limit 20 --format csv --output picks.csv
-
-# Also write a human-readable text summary
-python3 propfinder.py --text-output home_run_report.txt
+cp .env.example .env        # then paste your free Odds API key into .env
+mlb-props --open            # today's slate (US Eastern date)
+mlb-props --date 2026-07-04 --format html json csv
+mlb-props --no-odds         # projections only; spends no Odds API credits
 ```
 
-### Useful options
+Reports are written to `reports/`: a sortable HTML page, plus JSON and/or CSV. A summary also
+prints to the terminal.
 
-| Flag | Env var | Default | Description |
-|---|---|---|---|
-| `--base-url` | `PROPFINDER_BASE_URL` | none | API host |
-| `--dates` | `PROPFINDER_DATES` | today (UTC) | Slate date, `YYYY-MM-DD` |
-| `--season` | `PROPFINDER_SEASON` | `2026` | Season used for pitcher splits |
-| `--limit` | `PROPFINDER_LIMIT` | `15` | Number of ranked picks printed |
-| `--format` | `PROPFINDER_FORMAT` | `json` | `json`, `csv`, or `text` |
-| `--output` | `PROPFINDER_OUTPUT` | `home_run_report.json` | Report path |
-| `--text-output` | `PROPFINDER_TEXT_OUTPUT` | none | Optional text summary path |
-| `--config` | `PROPFINDER_CONFIG` | auto-detect | Path to a JSON config |
-| `--sample` | | | Use demo data instead of the API |
-| `--browser-login` | | | Capture auth from Chrome |
+| Option | Description |
+|---|---|
+| `--date YYYY-MM-DD` | Slate date (default: today, US Eastern) |
+| `--format html json csv` | Report formats (default: html json) |
+| `--no-odds` | Skip sportsbook prices |
+| `--bookmakers draftkings,fanduel` | Only these books (also `ODDS_BOOKMAKERS`) |
+| `--park-seasons N` | Seasons pooled for park factors (default 3) |
+| `--no-cache` / `--cache-dir PATH` | HTTP cache control (default `~/.cache/mlb-prop-predictor`) |
+| `--demo` | Offline fictional slate |
+| `--open` | Open the HTML report when done |
 
-Run `python3 propfinder.py --help` for the full list.
+## Data sources
+
+| Data | Source | Cost |
+|---|---|---|
+| Schedule, probable starters, lineups, venues | [MLB Stats API](https://statsapi.mlb.com) | Free |
+| Player season and platoon splits, team home/road splits | MLB Stats API | Free |
+| Barrel rates (hitters and pitchers) | [Baseball Savant](https://baseballsavant.mlb.com) leaderboards | Free |
+| Game-time weather | [Open-Meteo](https://open-meteo.com) | Free, non-commercial |
+| HR and strikeout prop prices | [The Odds API](https://the-odds-api.com) | Free tier: 500 credits/month |
+
+**Odds API budget:** only two markets are requested (`batter_home_runs`, `pitcher_strikeouts`),
+so each game costs about 2 credits and a full 15-game slate about 30. That's roughly
+**16 full-slate runs a month** on the free plan. Odds are cached for 30 minutes, so re-running
+a report doesn't spend credits again. Use `--bookmakers` to narrow requests, or `--no-odds`
+to skip them entirely.
+
+No logins, cookies or scraping of paid sites. MLB data is © MLB Advanced Media and is used for
+individual, non-commercial purposes, so this repo ships code, not data.
+
+## Project layout
+
+```
+src/mlb_prop_predictor/
+├── cli.py              # argument parsing, output files
+├── pipeline.py         # fetch → project → attach market prices
+├── http.py             # stdlib HTTP client with retries + on-disk TTL cache
+├── config.py           # settings, .env loading, cache lifetimes
+├── domain.py           # dataclasses shared across layers
+├── sources/            # one module per API: mlb_stats, savant, weather, odds
+├── models/             # pure functions: common math, park factors, matchup, home_runs, strikeouts
+├── report/             # console, JSON, CSV and HTML writers
+└── demo/               # fictional fixtures + offline client
+tests/                  # unit tests for the math and parsers, plus end-to-end demo runs
+scripts/                # fixture generator
+docs/METHODOLOGY.md
+```
+
+Design notes:
+- **Zero runtime dependencies.** Standard library only, so it installs anywhere with Python 3.10+.
+- **Sources are injectable.** Every source takes an `HttpClient`, so tests and demo mode run offline.
+- **Models are pure functions.** They're unit-tested for calibration: a league-average matchup
+  reproduces league-average rates.
+- **Secrets stay out of git.** The API key lives in `.env` and is redacted from cache keys and logs.
+
+## Development
+
+```bash
+pip install -e ".[dev]"
+pytest
+ruff check . && ruff format --check src tests scripts
+python scripts/build_demo_fixtures.py   # regenerate demo data
+```
 
 ## Disclaimer
 
-For personal research and entertainment only. Nothing here is betting advice, and the model's scores are not guaranteed probabilities. Follow PropFinder's terms of service, and bet responsibly.
+For research and entertainment only. Projections are estimates, not guarantees, and nothing
+here is betting advice. Gamble responsibly.

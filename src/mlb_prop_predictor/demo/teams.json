@@ -1,0 +1,32 @@
+{
+ "teams": [
+  {
+   "id": 9001,
+   "name": "Harbor City Herons",
+   "venue": {
+    "id": 8001
+   }
+  },
+  {
+   "id": 9002,
+   "name": "Ridgeview Rockets",
+   "venue": {
+    "id": 8002
+   }
+  },
+  {
+   "id": 9003,
+   "name": "Portside Pilots",
+   "venue": {
+    "id": 8003
+   }
+  },
+  {
+   "id": 9004,
+   "name": "Summit Peaks",
+   "venue": {
+    "id": 8004
+   }
+  }
+ ]
+}

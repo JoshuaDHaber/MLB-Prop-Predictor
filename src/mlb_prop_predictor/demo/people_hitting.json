@@ -1,0 +1,2308 @@
+{
+ "people": [
+  {
+   "id": 100000,
+   "fullName": "Ace Demo",
+   "batSide": {
+    "code": "S"
+   },
+   "pitchHand": {
+    "code": "R"
+   },
+   "stats": [
+    {
+     "type": {
+      "displayName": "season"
+     },
+     "group": {
+      "displayName": "hitting"
+     },
+     "splits": [
+      {
+       "stat": {
+        "plateAppearances": 398,
+        "homeRuns": 8,
+        "strikeOuts": 96,
+        "gamesPlayed": 99
+       }
+      }
+     ]
+    },
+    {
+     "type": {
+      "displayName": "statSplits"
+     },
+     "group": {
+      "displayName": "hitting"
+     },
+     "splits": [
+      {
+       "split": {
+        "code": "vl",
+        "description": "vs Left"
+       },
+       "stat": {
+        "plateAppearances": 119,
+        "homeRuns": 2,
+        "strikeOuts": 25,
+        "gamesPlayed": 29
+       }
+      },
+      {
+       "split": {
+        "code": "vr",
+        "description": "vs Right"
+       },
+       "stat": {
+        "plateAppearances": 279,
+        "homeRuns": 6,
+        "strikeOuts": 71,
+        "gamesPlayed": 69
+       }
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": 100001,
+   "fullName": "Bo Example",
+   "batSide": {
+    "code": "L"
+   },
+   "pitchHand": {
+    "code": "R"
+   },
+   "stats": [
+    {
+     "type": {
+      "displayName": "season"
+     },
+     "group": {
+      "displayName": "hitting"
+     },
+     "splits": [
+      {
+       "stat": {
+        "plateAppearances": 347,
+        "homeRuns": 11,
+        "strikeOuts": 58,
+        "gamesPlayed": 86
+       }
+      }
+     ]
+    },
+    {
+     "type": {
+      "displayName": "statSplits"
+     },
+     "group": {
+      "displayName": "hitting"
+     },
+     "splits": [
+      {
+       "split": {
+        "code": "vl",
+        "description": "vs Left"
+       },
+       "stat": {
+        "plateAppearances": 104,
+        "homeRuns": 4,
+        "strikeOuts": 15,
+        "gamesPlayed": 26
+       }
+      },
+      {
+       "split": {
+        "code": "vr",
+        "description": "vs Right"
+       },
+       "stat": {
+        "plateAppearances": 243,
+        "homeRuns": 7,
+        "strikeOuts": 43,
+        "gamesPlayed": 60
+       }
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": 100002,
+   "fullName": "Cal Prototyp",
+   "batSide": {
+    "code": "R"
+   },
+   "pitchHand": {
+    "code": "R"
+   },
+   "stats": [
+    {
+     "type": {
+      "displayName": "season"
+     },
+     "group": {
+      "displayName": "hitting"
+     },
+     "splits": [
+      {
+       "stat": {
+        "plateAppearances": 384,
+        "homeRuns": 8,
+        "strikeOuts": 121,
+        "gamesPlayed": 96
+       }
+      }
+     ]
+    },
+    {
+     "type": {
+      "displayName": "statSplits"
+     },
+     "group": {
+      "displayName": "hitting"
+     },
+     "splits": [
+      {
+       "split": {
+        "code": "vl",
+        "description": "vs Left"
+       },
+       "stat": {
+        "plateAppearances": 115,
+        "homeRuns": 3,
+        "strikeOuts": 37,
+        "gamesPlayed": 28
+       }
+      },
+      {
+       "split": {
+        "code": "vr",
+        "description": "vs Right"
+       },
+       "stat": {
+        "plateAppearances": 269,
+        "homeRuns": 5,
+        "strikeOuts": 84,
+        "gamesPlayed": 67
+       }
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": 100003,
+   "fullName": "Dex Sample",
+   "batSide": {
+    "code": "S"
+   },
+   "pitchHand": {
+    "code": "R"
+   },
+   "stats": [
+    {
+     "type": {
+      "displayName": "season"
+     },
+     "group": {
+      "displayName": "hitting"
+     },
+     "splits": [
+      {
+       "stat": {
+        "plateAppearances": 301,
+        "homeRuns": 6,
+        "strikeOuts": 45,
+        "gamesPlayed": 75
+       }
+      }
+     ]
+    },
+    {
+     "type": {
+      "displayName": "statSplits"
+     },
+     "group": {
+      "displayName": "hitting"
+     },
+     "splits": [
+      {
+       "split": {
+        "code": "vl",
+        "description": "vs Left"
+       },
+       "stat": {
+        "plateAppearances": 90,
+        "homeRuns": 2,
+        "strikeOuts": 14,
+        "gamesPlayed": 22
+       }
+      },
+      {
+       "split": {
+        "code": "vr",
+        "description": "vs Right"
+       },
+       "stat": {
+        "plateAppearances": 211,
+        "homeRuns": 4,
+        "strikeOuts": 31,
+        "gamesPlayed": 52
+       }
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": 100004,
+   "fullName": "Eli Dummy",
+   "batSide": {
+    "code": "L"
+   },
+   "pitchHand": {
+    "code": "R"
+   },
+   "stats": [
+    {
+     "type": {
+      "displayName": "season"
+     },
+     "group": {
+      "displayName": "hitting"
+     },
+     "splits": [
+      {
+       "stat": {
+        "plateAppearances": 392,
+        "homeRuns": 27,
+        "strikeOuts": 122,
+        "gamesPlayed": 98
+       }
+      }
+     ]
+    },
+    {
+     "type": {
+      "displayName": "statSplits"
+     },
+     "group": {
+      "displayName": "hitting"
+     },
+     "splits": [
+      {
+       "split": {
+        "code": "vl",
+        "description": "vs Left"
+       },
+       "stat": {
+        "plateAppearances": 118,
+        "homeRuns": 7,
+        "strikeOuts": 34,
+        "gamesPlayed": 29
+       }
+      },
+      {
+       "split": {
+        "code": "vr",
+        "description": "vs Right"
+       },
+       "stat": {
+        "plateAppearances": 274,
+        "homeRuns": 20,
+        "strikeOuts": 88,
+        "gamesPlayed": 68
+       }
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": 100005,
+   "fullName": "Finn Imitato",
+   "batSide": {
+    "code": "L"
+   },
+   "pitchHand": {
+    "code": "R"
+   },
+   "stats": [
+    {
+     "type": {
+      "displayName": "season"
+     },
+     "group": {
+      "displayName": "hitting"
+     },
+     "splits": [
+      {
+       "stat": {
+        "plateAppearances": 419,
+        "homeRuns": 24,
+        "strikeOuts": 95,
+        "gamesPlayed": 104
+       }
+      }
+     ]
+    },
+    {
+     "type": {
+      "displayName": "statSplits"
+     },
+     "group": {
+      "displayName": "hitting"
+     },
+     "splits": [
+      {
+       "split": {
+        "code": "vl",
+        "description": "vs Left"
+       },
+       "stat": {
+        "plateAppearances": 126,
+        "homeRuns": 7,
+        "strikeOuts": 29,
+        "gamesPlayed": 31
+       }
+      },
+      {
+       "split": {
+        "code": "vr",
+        "description": "vs Right"
+       },
+       "stat": {
+        "plateAppearances": 293,
+        "homeRuns": 17,
+        "strikeOuts": 66,
+        "gamesPlayed": 73
+       }
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": 100006,
+   "fullName": "Gus Fixture",
+   "batSide": {
+    "code": "L"
+   },
+   "pitchHand": {
+    "code": "R"
+   },
+   "stats": [
+    {
+     "type": {
+      "displayName": "season"
+     },
+     "group": {
+      "displayName": "hitting"
+     },
+     "splits": [
+      {
+       "stat": {
+        "plateAppearances": 327,
+        "homeRuns": 6,
+        "strikeOuts": 46,
+        "gamesPlayed": 81
+       }
+      }
+     ]
+    },
+    {
+     "type": {
+      "displayName": "statSplits"
+     },
+     "group": {
+      "displayName": "hitting"
+     },
+     "splits": [
+      {
+       "split": {
+        "code": "vl",
+        "description": "vs Left"
+       },
+       "stat": {
+        "plateAppearances": 98,
+        "homeRuns": 2,
+        "strikeOuts": 14,
+        "gamesPlayed": 24
+       }
+      },
+      {
+       "split": {
+        "code": "vr",
+        "description": "vs Right"
+       },
+       "stat": {
+        "plateAppearances": 229,
+        "homeRuns": 4,
+        "strikeOuts": 32,
+        "gamesPlayed": 57
+       }
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": 100007,
+   "fullName": "Hank Proto",
+   "batSide": {
+    "code": "R"
+   },
+   "pitchHand": {
+    "code": "R"
+   },
+   "stats": [
+    {
+     "type": {
+      "displayName": "season"
+     },
+     "group": {
+      "displayName": "hitting"
+     },
+     "splits": [
+      {
+       "stat": {
+        "plateAppearances": 405,
+        "homeRuns": 8,
+        "strikeOuts": 129,
+        "gamesPlayed": 101
+       }
+      }
+     ]
+    },
+    {
+     "type": {
+      "displayName": "statSplits"
+     },
+     "group": {
+      "displayName": "hitting"
+     },
+     "splits": [
+      {
+       "split": {
+        "code": "vl",
+        "description": "vs Left"
+       },
+       "stat": {
+        "plateAppearances": 122,
+        "homeRuns": 3,
+        "strikeOuts": 41,
+        "gamesPlayed": 30
+       }
+      },
+      {
+       "split": {
+        "code": "vr",
+        "description": "vs Right"
+       },
+       "stat": {
+        "plateAppearances": 283,
+        "homeRuns": 5,
+        "strikeOuts": 88,
+        "gamesPlayed": 70
+       }
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": 100008,
+   "fullName": "Ike Modelo",
+   "batSide": {
+    "code": "R"
+   },
+   "pitchHand": {
+    "code": "R"
+   },
+   "stats": [
+    {
+     "type": {
+      "displayName": "season"
+     },
+     "group": {
+      "displayName": "hitting"
+     },
+     "splits": [
+      {
+       "stat": {
+        "plateAppearances": 365,
+        "homeRuns": 7,
+        "strikeOuts": 55,
+        "gamesPlayed": 91
+       }
+      }
+     ]
+    },
+    {
+     "type": {
+      "displayName": "statSplits"
+     },
+     "group": {
+      "displayName": "hitting"
+     },
+     "splits": [
+      {
+       "split": {
+        "code": "vl",
+        "description": "vs Left"
+       },
+       "stat": {
+        "plateAppearances": 110,
+        "homeRuns": 2,
+        "strikeOuts": 16,
+        "gamesPlayed": 27
+       }
+      },
+      {
+       "split": {
+        "code": "vr",
+        "description": "vs Right"
+       },
+       "stat": {
+        "plateAppearances": 255,
+        "homeRuns": 5,
+        "strikeOuts": 39,
+        "gamesPlayed": 63
+       }
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": 100010,
+   "fullName": "Kai Stubbs",
+   "batSide": {
+    "code": "R"
+   },
+   "pitchHand": {
+    "code": "R"
+   },
+   "stats": [
+    {
+     "type": {
+      "displayName": "season"
+     },
+     "group": {
+      "displayName": "hitting"
+     },
+     "splits": [
+      {
+       "stat": {
+        "plateAppearances": 412,
+        "homeRuns": 15,
+        "strikeOuts": 122,
+        "gamesPlayed": 103
+       }
+      }
+     ]
+    },
+    {
+     "type": {
+      "displayName": "statSplits"
+     },
+     "group": {
+      "displayName": "hitting"
+     },
+     "splits": [
+      {
+       "split": {
+        "code": "vl",
+        "description": "vs Left"
+       },
+       "stat": {
+        "plateAppearances": 124,
+        "homeRuns": 4,
+        "strikeOuts": 32,
+        "gamesPlayed": 31
+       }
+      },
+      {
+       "split": {
+        "code": "vr",
+        "description": "vs Right"
+       },
+       "stat": {
+        "plateAppearances": 288,
+        "homeRuns": 11,
+        "strikeOuts": 90,
+        "gamesPlayed": 72
+       }
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": 100011,
+   "fullName": "Lou Draftsman",
+   "batSide": {
+    "code": "R"
+   },
+   "pitchHand": {
+    "code": "R"
+   },
+   "stats": [
+    {
+     "type": {
+      "displayName": "season"
+     },
+     "group": {
+      "displayName": "hitting"
+     },
+     "splits": [
+      {
+       "stat": {
+        "plateAppearances": 328,
+        "homeRuns": 12,
+        "strikeOuts": 92,
+        "gamesPlayed": 82
+       }
+      }
+     ]
+    },
+    {
+     "type": {
+      "displayName": "statSplits"
+     },
+     "group": {
+      "displayName": "hitting"
+     },
+     "splits": [
+      {
+       "split": {
+        "code": "vl",
+        "description": "vs Left"
+       },
+       "stat": {
+        "plateAppearances": 98,
+        "homeRuns": 3,
+        "strikeOuts": 27,
+        "gamesPlayed": 24
+       }
+      },
+      {
+       "split": {
+        "code": "vr",
+        "description": "vs Right"
+       },
+       "stat": {
+        "plateAppearances": 230,
+        "homeRuns": 9,
+        "strikeOuts": 65,
+        "gamesPlayed": 57
+       }
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": 100012,
+   "fullName": "Max Testa",
+   "batSide": {
+    "code": "L"
+   },
+   "pitchHand": {
+    "code": "R"
+   },
+   "stats": [
+    {
+     "type": {
+      "displayName": "season"
+     },
+     "group": {
+      "displayName": "hitting"
+     },
+     "splits": [
+      {
+       "stat": {
+        "plateAppearances": 281,
+        "homeRuns": 4,
+        "strikeOuts": 82,
+        "gamesPlayed": 70
+       }
+      }
+     ]
+    },
+    {
+     "type": {
+      "displayName": "statSplits"
+     },
+     "group": {
+      "displayName": "hitting"
+     },
+     "splits": [
+      {
+       "split": {
+        "code": "vl",
+        "description": "vs Left"
+       },
+       "stat": {
+        "plateAppearances": 84,
+        "homeRuns": 1,
+        "strikeOuts": 25,
+        "gamesPlayed": 21
+       }
+      },
+      {
+       "split": {
+        "code": "vr",
+        "description": "vs Right"
+       },
+       "stat": {
+        "plateAppearances": 197,
+        "homeRuns": 3,
+        "strikeOuts": 57,
+        "gamesPlayed": 49
+       }
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": 100013,
+   "fullName": "Ned Fakeson",
+   "batSide": {
+    "code": "R"
+   },
+   "pitchHand": {
+    "code": "R"
+   },
+   "stats": [
+    {
+     "type": {
+      "displayName": "season"
+     },
+     "group": {
+      "displayName": "hitting"
+     },
+     "splits": [
+      {
+       "stat": {
+        "plateAppearances": 330,
+        "homeRuns": 7,
+        "strikeOuts": 47,
+        "gamesPlayed": 82
+       }
+      }
+     ]
+    },
+    {
+     "type": {
+      "displayName": "statSplits"
+     },
+     "group": {
+      "displayName": "hitting"
+     },
+     "splits": [
+      {
+       "split": {
+        "code": "vl",
+        "description": "vs Left"
+       },
+       "stat": {
+        "plateAppearances": 99,
+        "homeRuns": 2,
+        "strikeOuts": 16,
+        "gamesPlayed": 24
+       }
+      },
+      {
+       "split": {
+        "code": "vr",
+        "description": "vs Right"
+       },
+       "stat": {
+        "plateAppearances": 231,
+        "homeRuns": 5,
+        "strikeOuts": 31,
+        "gamesPlayed": 57
+       }
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": 100014,
+   "fullName": "Otis Pilotti",
+   "batSide": {
+    "code": "S"
+   },
+   "pitchHand": {
+    "code": "R"
+   },
+   "stats": [
+    {
+     "type": {
+      "displayName": "season"
+     },
+     "group": {
+      "displayName": "hitting"
+     },
+     "splits": [
+      {
+       "stat": {
+        "plateAppearances": 251,
+        "homeRuns": 16,
+        "strikeOuts": 73,
+        "gamesPlayed": 62
+       }
+      }
+     ]
+    },
+    {
+     "type": {
+      "displayName": "statSplits"
+     },
+     "group": {
+      "displayName": "hitting"
+     },
+     "splits": [
+      {
+       "split": {
+        "code": "vl",
+        "description": "vs Left"
+       },
+       "stat": {
+        "plateAppearances": 75,
+        "homeRuns": 5,
+        "strikeOuts": 20,
+        "gamesPlayed": 18
+       }
+      },
+      {
+       "split": {
+        "code": "vr",
+        "description": "vs Right"
+       },
+       "stat": {
+        "plateAppearances": 176,
+        "homeRuns": 11,
+        "strikeOuts": 53,
+        "gamesPlayed": 44
+       }
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": 100015,
+   "fullName": "Pax Placeholder",
+   "batSide": {
+    "code": "S"
+   },
+   "pitchHand": {
+    "code": "R"
+   },
+   "stats": [
+    {
+     "type": {
+      "displayName": "season"
+     },
+     "group": {
+      "displayName": "hitting"
+     },
+     "splits": [
+      {
+       "stat": {
+        "plateAppearances": 251,
+        "homeRuns": 6,
+        "strikeOuts": 64,
+        "gamesPlayed": 62
+       }
+      }
+     ]
+    },
+    {
+     "type": {
+      "displayName": "statSplits"
+     },
+     "group": {
+      "displayName": "hitting"
+     },
+     "splits": [
+      {
+       "split": {
+        "code": "vl",
+        "description": "vs Left"
+       },
+       "stat": {
+        "plateAppearances": 75,
+        "homeRuns": 2,
+        "strikeOuts": 17,
+        "gamesPlayed": 18
+       }
+      },
+      {
+       "split": {
+        "code": "vr",
+        "description": "vs Right"
+       },
+       "stat": {
+        "plateAppearances": 176,
+        "homeRuns": 4,
+        "strikeOuts": 47,
+        "gamesPlayed": 44
+       }
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": 100016,
+   "fullName": "Quin Specimen",
+   "batSide": {
+    "code": "R"
+   },
+   "pitchHand": {
+    "code": "R"
+   },
+   "stats": [
+    {
+     "type": {
+      "displayName": "season"
+     },
+     "group": {
+      "displayName": "hitting"
+     },
+     "splits": [
+      {
+       "stat": {
+        "plateAppearances": 352,
+        "homeRuns": 23,
+        "strikeOuts": 80,
+        "gamesPlayed": 88
+       }
+      }
+     ]
+    },
+    {
+     "type": {
+      "displayName": "statSplits"
+     },
+     "group": {
+      "displayName": "hitting"
+     },
+     "splits": [
+      {
+       "split": {
+        "code": "vl",
+        "description": "vs Left"
+       },
+       "stat": {
+        "plateAppearances": 106,
+        "homeRuns": 7,
+        "strikeOuts": 21,
+        "gamesPlayed": 26
+       }
+      },
+      {
+       "split": {
+        "code": "vr",
+        "description": "vs Right"
+       },
+       "stat": {
+        "plateAppearances": 246,
+        "homeRuns": 16,
+        "strikeOuts": 59,
+        "gamesPlayed": 61
+       }
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": 100017,
+   "fullName": "Rex Sandbox",
+   "batSide": {
+    "code": "L"
+   },
+   "pitchHand": {
+    "code": "R"
+   },
+   "stats": [
+    {
+     "type": {
+      "displayName": "season"
+     },
+     "group": {
+      "displayName": "hitting"
+     },
+     "splits": [
+      {
+       "stat": {
+        "plateAppearances": 251,
+        "homeRuns": 6,
+        "strikeOuts": 44,
+        "gamesPlayed": 62
+       }
+      }
+     ]
+    },
+    {
+     "type": {
+      "displayName": "statSplits"
+     },
+     "group": {
+      "displayName": "hitting"
+     },
+     "splits": [
+      {
+       "split": {
+        "code": "vl",
+        "description": "vs Left"
+       },
+       "stat": {
+        "plateAppearances": 75,
+        "homeRuns": 2,
+        "strikeOuts": 13,
+        "gamesPlayed": 18
+       }
+      },
+      {
+       "split": {
+        "code": "vr",
+        "description": "vs Right"
+       },
+       "stat": {
+        "plateAppearances": 176,
+        "homeRuns": 4,
+        "strikeOuts": 31,
+        "gamesPlayed": 44
+       }
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": 100018,
+   "fullName": "Sal Synth",
+   "batSide": {
+    "code": "R"
+   },
+   "pitchHand": {
+    "code": "R"
+   },
+   "stats": [
+    {
+     "type": {
+      "displayName": "season"
+     },
+     "group": {
+      "displayName": "hitting"
+     },
+     "splits": [
+      {
+       "stat": {
+        "plateAppearances": 381,
+        "homeRuns": 22,
+        "strikeOuts": 83,
+        "gamesPlayed": 95
+       }
+      }
+     ]
+    },
+    {
+     "type": {
+      "displayName": "statSplits"
+     },
+     "group": {
+      "displayName": "hitting"
+     },
+     "splits": [
+      {
+       "split": {
+        "code": "vl",
+        "description": "vs Left"
+       },
+       "stat": {
+        "plateAppearances": 114,
+        "homeRuns": 8,
+        "strikeOuts": 23,
+        "gamesPlayed": 28
+       }
+      },
+      {
+       "split": {
+        "code": "vr",
+        "description": "vs Right"
+       },
+       "stat": {
+        "plateAppearances": 267,
+        "homeRuns": 14,
+        "strikeOuts": 60,
+        "gamesPlayed": 66
+       }
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": 100020,
+   "fullName": "Ugo Demo",
+   "batSide": {
+    "code": "S"
+   },
+   "pitchHand": {
+    "code": "R"
+   },
+   "stats": [
+    {
+     "type": {
+      "displayName": "season"
+     },
+     "group": {
+      "displayName": "hitting"
+     },
+     "splits": [
+      {
+       "stat": {
+        "plateAppearances": 355,
+        "homeRuns": 4,
+        "strikeOuts": 66,
+        "gamesPlayed": 88
+       }
+      }
+     ]
+    },
+    {
+     "type": {
+      "displayName": "statSplits"
+     },
+     "group": {
+      "displayName": "hitting"
+     },
+     "splits": [
+      {
+       "split": {
+        "code": "vl",
+        "description": "vs Left"
+       },
+       "stat": {
+        "plateAppearances": 106,
+        "homeRuns": 1,
+        "strikeOuts": 20,
+        "gamesPlayed": 26
+       }
+      },
+      {
+       "split": {
+        "code": "vr",
+        "description": "vs Right"
+       },
+       "stat": {
+        "plateAppearances": 249,
+        "homeRuns": 3,
+        "strikeOuts": 46,
+        "gamesPlayed": 62
+       }
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": 100021,
+   "fullName": "Vic Example",
+   "batSide": {
+    "code": "S"
+   },
+   "pitchHand": {
+    "code": "R"
+   },
+   "stats": [
+    {
+     "type": {
+      "displayName": "season"
+     },
+     "group": {
+      "displayName": "hitting"
+     },
+     "splits": [
+      {
+       "stat": {
+        "plateAppearances": 406,
+        "homeRuns": 12,
+        "strikeOuts": 108,
+        "gamesPlayed": 101
+       }
+      }
+     ]
+    },
+    {
+     "type": {
+      "displayName": "statSplits"
+     },
+     "group": {
+      "displayName": "hitting"
+     },
+     "splits": [
+      {
+       "split": {
+        "code": "vl",
+        "description": "vs Left"
+       },
+       "stat": {
+        "plateAppearances": 122,
+        "homeRuns": 3,
+        "strikeOuts": 30,
+        "gamesPlayed": 30
+       }
+      },
+      {
+       "split": {
+        "code": "vr",
+        "description": "vs Right"
+       },
+       "stat": {
+        "plateAppearances": 284,
+        "homeRuns": 9,
+        "strikeOuts": 78,
+        "gamesPlayed": 71
+       }
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": 100022,
+   "fullName": "Wes Prototyp",
+   "batSide": {
+    "code": "L"
+   },
+   "pitchHand": {
+    "code": "R"
+   },
+   "stats": [
+    {
+     "type": {
+      "displayName": "season"
+     },
+     "group": {
+      "displayName": "hitting"
+     },
+     "splits": [
+      {
+       "stat": {
+        "plateAppearances": 315,
+        "homeRuns": 15,
+        "strikeOuts": 82,
+        "gamesPlayed": 78
+       }
+      }
+     ]
+    },
+    {
+     "type": {
+      "displayName": "statSplits"
+     },
+     "group": {
+      "displayName": "hitting"
+     },
+     "splits": [
+      {
+       "split": {
+        "code": "vl",
+        "description": "vs Left"
+       },
+       "stat": {
+        "plateAppearances": 94,
+        "homeRuns": 4,
+        "strikeOuts": 28,
+        "gamesPlayed": 23
+       }
+      },
+      {
+       "split": {
+        "code": "vr",
+        "description": "vs Right"
+       },
+       "stat": {
+        "plateAppearances": 221,
+        "homeRuns": 11,
+        "strikeOuts": 54,
+        "gamesPlayed": 55
+       }
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": 100023,
+   "fullName": "Xan Sample",
+   "batSide": {
+    "code": "L"
+   },
+   "pitchHand": {
+    "code": "R"
+   },
+   "stats": [
+    {
+     "type": {
+      "displayName": "season"
+     },
+     "group": {
+      "displayName": "hitting"
+     },
+     "splits": [
+      {
+       "stat": {
+        "plateAppearances": 395,
+        "homeRuns": 12,
+        "strikeOuts": 61,
+        "gamesPlayed": 98
+       }
+      }
+     ]
+    },
+    {
+     "type": {
+      "displayName": "statSplits"
+     },
+     "group": {
+      "displayName": "hitting"
+     },
+     "splits": [
+      {
+       "split": {
+        "code": "vl",
+        "description": "vs Left"
+       },
+       "stat": {
+        "plateAppearances": 118,
+        "homeRuns": 3,
+        "strikeOuts": 17,
+        "gamesPlayed": 29
+       }
+      },
+      {
+       "split": {
+        "code": "vr",
+        "description": "vs Right"
+       },
+       "stat": {
+        "plateAppearances": 277,
+        "homeRuns": 9,
+        "strikeOuts": 44,
+        "gamesPlayed": 69
+       }
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": 100024,
+   "fullName": "Yuri Dummy",
+   "batSide": {
+    "code": "L"
+   },
+   "pitchHand": {
+    "code": "R"
+   },
+   "stats": [
+    {
+     "type": {
+      "displayName": "season"
+     },
+     "group": {
+      "displayName": "hitting"
+     },
+     "splits": [
+      {
+       "stat": {
+        "plateAppearances": 256,
+        "homeRuns": 8,
+        "strikeOuts": 48,
+        "gamesPlayed": 64
+       }
+      }
+     ]
+    },
+    {
+     "type": {
+      "displayName": "statSplits"
+     },
+     "group": {
+      "displayName": "hitting"
+     },
+     "splits": [
+      {
+       "split": {
+        "code": "vl",
+        "description": "vs Left"
+       },
+       "stat": {
+        "plateAppearances": 77,
+        "homeRuns": 2,
+        "strikeOuts": 13,
+        "gamesPlayed": 19
+       }
+      },
+      {
+       "split": {
+        "code": "vr",
+        "description": "vs Right"
+       },
+       "stat": {
+        "plateAppearances": 179,
+        "homeRuns": 6,
+        "strikeOuts": 35,
+        "gamesPlayed": 44
+       }
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": 100025,
+   "fullName": "Zed Imitato",
+   "batSide": {
+    "code": "L"
+   },
+   "pitchHand": {
+    "code": "R"
+   },
+   "stats": [
+    {
+     "type": {
+      "displayName": "season"
+     },
+     "group": {
+      "displayName": "hitting"
+     },
+     "splits": [
+      {
+       "stat": {
+        "plateAppearances": 370,
+        "homeRuns": 18,
+        "strikeOuts": 101,
+        "gamesPlayed": 92
+       }
+      }
+     ]
+    },
+    {
+     "type": {
+      "displayName": "statSplits"
+     },
+     "group": {
+      "displayName": "hitting"
+     },
+     "splits": [
+      {
+       "split": {
+        "code": "vl",
+        "description": "vs Left"
+       },
+       "stat": {
+        "plateAppearances": 111,
+        "homeRuns": 5,
+        "strikeOuts": 27,
+        "gamesPlayed": 27
+       }
+      },
+      {
+       "split": {
+        "code": "vr",
+        "description": "vs Right"
+       },
+       "stat": {
+        "plateAppearances": 259,
+        "homeRuns": 13,
+        "strikeOuts": 74,
+        "gamesPlayed": 64
+       }
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": 100026,
+   "fullName": "Abe Fixture",
+   "batSide": {
+    "code": "R"
+   },
+   "pitchHand": {
+    "code": "R"
+   },
+   "stats": [
+    {
+     "type": {
+      "displayName": "season"
+     },
+     "group": {
+      "displayName": "hitting"
+     },
+     "splits": [
+      {
+       "stat": {
+        "plateAppearances": 343,
+        "homeRuns": 7,
+        "strikeOuts": 99,
+        "gamesPlayed": 85
+       }
+      }
+     ]
+    },
+    {
+     "type": {
+      "displayName": "statSplits"
+     },
+     "group": {
+      "displayName": "hitting"
+     },
+     "splits": [
+      {
+       "split": {
+        "code": "vl",
+        "description": "vs Left"
+       },
+       "stat": {
+        "plateAppearances": 103,
+        "homeRuns": 2,
+        "strikeOuts": 33,
+        "gamesPlayed": 25
+       }
+      },
+      {
+       "split": {
+        "code": "vr",
+        "description": "vs Right"
+       },
+       "stat": {
+        "plateAppearances": 240,
+        "homeRuns": 5,
+        "strikeOuts": 66,
+        "gamesPlayed": 60
+       }
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": 100027,
+   "fullName": "Ben Proto",
+   "batSide": {
+    "code": "R"
+   },
+   "pitchHand": {
+    "code": "R"
+   },
+   "stats": [
+    {
+     "type": {
+      "displayName": "season"
+     },
+     "group": {
+      "displayName": "hitting"
+     },
+     "splits": [
+      {
+       "stat": {
+        "plateAppearances": 302,
+        "homeRuns": 12,
+        "strikeOuts": 42,
+        "gamesPlayed": 75
+       }
+      }
+     ]
+    },
+    {
+     "type": {
+      "displayName": "statSplits"
+     },
+     "group": {
+      "displayName": "hitting"
+     },
+     "splits": [
+      {
+       "split": {
+        "code": "vl",
+        "description": "vs Left"
+       },
+       "stat": {
+        "plateAppearances": 91,
+        "homeRuns": 3,
+        "strikeOuts": 14,
+        "gamesPlayed": 22
+       }
+      },
+      {
+       "split": {
+        "code": "vr",
+        "description": "vs Right"
+       },
+       "stat": {
+        "plateAppearances": 211,
+        "homeRuns": 9,
+        "strikeOuts": 28,
+        "gamesPlayed": 52
+       }
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": 100028,
+   "fullName": "Cy Modelo",
+   "batSide": {
+    "code": "R"
+   },
+   "pitchHand": {
+    "code": "R"
+   },
+   "stats": [
+    {
+     "type": {
+      "displayName": "season"
+     },
+     "group": {
+      "displayName": "hitting"
+     },
+     "splits": [
+      {
+       "stat": {
+        "plateAppearances": 278,
+        "homeRuns": 9,
+        "strikeOuts": 46,
+        "gamesPlayed": 69
+       }
+      }
+     ]
+    },
+    {
+     "type": {
+      "displayName": "statSplits"
+     },
+     "group": {
+      "displayName": "hitting"
+     },
+     "splits": [
+      {
+       "split": {
+        "code": "vl",
+        "description": "vs Left"
+       },
+       "stat": {
+        "plateAppearances": 83,
+        "homeRuns": 3,
+        "strikeOuts": 13,
+        "gamesPlayed": 20
+       }
+      },
+      {
+       "split": {
+        "code": "vr",
+        "description": "vs Right"
+       },
+       "stat": {
+        "plateAppearances": 195,
+        "homeRuns": 6,
+        "strikeOuts": 33,
+        "gamesPlayed": 48
+       }
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": 100030,
+   "fullName": "Ezra Stubbs",
+   "batSide": {
+    "code": "L"
+   },
+   "pitchHand": {
+    "code": "R"
+   },
+   "stats": [
+    {
+     "type": {
+      "displayName": "season"
+     },
+     "group": {
+      "displayName": "hitting"
+     },
+     "splits": [
+      {
+       "stat": {
+        "plateAppearances": 341,
+        "homeRuns": 9,
+        "strikeOuts": 91,
+        "gamesPlayed": 85
+       }
+      }
+     ]
+    },
+    {
+     "type": {
+      "displayName": "statSplits"
+     },
+     "group": {
+      "displayName": "hitting"
+     },
+     "splits": [
+      {
+       "split": {
+        "code": "vl",
+        "description": "vs Left"
+       },
+       "stat": {
+        "plateAppearances": 102,
+        "homeRuns": 3,
+        "strikeOuts": 29,
+        "gamesPlayed": 25
+       }
+      },
+      {
+       "split": {
+        "code": "vr",
+        "description": "vs Right"
+       },
+       "stat": {
+        "plateAppearances": 239,
+        "homeRuns": 6,
+        "strikeOuts": 62,
+        "gamesPlayed": 59
+       }
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": 100031,
+   "fullName": "Flynn Draftsman",
+   "batSide": {
+    "code": "L"
+   },
+   "pitchHand": {
+    "code": "R"
+   },
+   "stats": [
+    {
+     "type": {
+      "displayName": "season"
+     },
+     "group": {
+      "displayName": "hitting"
+     },
+     "splits": [
+      {
+       "stat": {
+        "plateAppearances": 330,
+        "homeRuns": 15,
+        "strikeOuts": 49,
+        "gamesPlayed": 82
+       }
+      }
+     ]
+    },
+    {
+     "type": {
+      "displayName": "statSplits"
+     },
+     "group": {
+      "displayName": "hitting"
+     },
+     "splits": [
+      {
+       "split": {
+        "code": "vl",
+        "description": "vs Left"
+       },
+       "stat": {
+        "plateAppearances": 99,
+        "homeRuns": 5,
+        "strikeOuts": 15,
+        "gamesPlayed": 24
+       }
+      },
+      {
+       "split": {
+        "code": "vr",
+        "description": "vs Right"
+       },
+       "stat": {
+        "plateAppearances": 231,
+        "homeRuns": 10,
+        "strikeOuts": 34,
+        "gamesPlayed": 57
+       }
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": 100032,
+   "fullName": "Gil Testa",
+   "batSide": {
+    "code": "R"
+   },
+   "pitchHand": {
+    "code": "R"
+   },
+   "stats": [
+    {
+     "type": {
+      "displayName": "season"
+     },
+     "group": {
+      "displayName": "hitting"
+     },
+     "splits": [
+      {
+       "stat": {
+        "plateAppearances": 418,
+        "homeRuns": 11,
+        "strikeOuts": 129,
+        "gamesPlayed": 104
+       }
+      }
+     ]
+    },
+    {
+     "type": {
+      "displayName": "statSplits"
+     },
+     "group": {
+      "displayName": "hitting"
+     },
+     "splits": [
+      {
+       "split": {
+        "code": "vl",
+        "description": "vs Left"
+       },
+       "stat": {
+        "plateAppearances": 125,
+        "homeRuns": 3,
+        "strikeOuts": 39,
+        "gamesPlayed": 31
+       }
+      },
+      {
+       "split": {
+        "code": "vr",
+        "description": "vs Right"
+       },
+       "stat": {
+        "plateAppearances": 293,
+        "homeRuns": 8,
+        "strikeOuts": 90,
+        "gamesPlayed": 73
+       }
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": 100033,
+   "fullName": "Hal Fakeson",
+   "batSide": {
+    "code": "R"
+   },
+   "pitchHand": {
+    "code": "R"
+   },
+   "stats": [
+    {
+     "type": {
+      "displayName": "season"
+     },
+     "group": {
+      "displayName": "hitting"
+     },
+     "splits": [
+      {
+       "stat": {
+        "plateAppearances": 348,
+        "homeRuns": 16,
+        "strikeOuts": 87,
+        "gamesPlayed": 87
+       }
+      }
+     ]
+    },
+    {
+     "type": {
+      "displayName": "statSplits"
+     },
+     "group": {
+      "displayName": "hitting"
+     },
+     "splits": [
+      {
+       "split": {
+        "code": "vl",
+        "description": "vs Left"
+       },
+       "stat": {
+        "plateAppearances": 104,
+        "homeRuns": 5,
+        "strikeOuts": 24,
+        "gamesPlayed": 26
+       }
+      },
+      {
+       "split": {
+        "code": "vr",
+        "description": "vs Right"
+       },
+       "stat": {
+        "plateAppearances": 244,
+        "homeRuns": 11,
+        "strikeOuts": 63,
+        "gamesPlayed": 61
+       }
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": 100034,
+   "fullName": "Ira Pilotti",
+   "batSide": {
+    "code": "R"
+   },
+   "pitchHand": {
+    "code": "R"
+   },
+   "stats": [
+    {
+     "type": {
+      "displayName": "season"
+     },
+     "group": {
+      "displayName": "hitting"
+     },
+     "splits": [
+      {
+       "stat": {
+        "plateAppearances": 334,
+        "homeRuns": 11,
+        "strikeOuts": 100,
+        "gamesPlayed": 83
+       }
+      }
+     ]
+    },
+    {
+     "type": {
+      "displayName": "statSplits"
+     },
+     "group": {
+      "displayName": "hitting"
+     },
+     "splits": [
+      {
+       "split": {
+        "code": "vl",
+        "description": "vs Left"
+       },
+       "stat": {
+        "plateAppearances": 100,
+        "homeRuns": 3,
+        "strikeOuts": 28,
+        "gamesPlayed": 25
+       }
+      },
+      {
+       "split": {
+        "code": "vr",
+        "description": "vs Right"
+       },
+       "stat": {
+        "plateAppearances": 234,
+        "homeRuns": 8,
+        "strikeOuts": 72,
+        "gamesPlayed": 58
+       }
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": 100035,
+   "fullName": "Jax Placeholder",
+   "batSide": {
+    "code": "R"
+   },
+   "pitchHand": {
+    "code": "R"
+   },
+   "stats": [
+    {
+     "type": {
+      "displayName": "season"
+     },
+     "group": {
+      "displayName": "hitting"
+     },
+     "splits": [
+      {
+       "stat": {
+        "plateAppearances": 350,
+        "homeRuns": 19,
+        "strikeOuts": 95,
+        "gamesPlayed": 87
+       }
+      }
+     ]
+    },
+    {
+     "type": {
+      "displayName": "statSplits"
+     },
+     "group": {
+      "displayName": "hitting"
+     },
+     "splits": [
+      {
+       "split": {
+        "code": "vl",
+        "description": "vs Left"
+       },
+       "stat": {
+        "plateAppearances": 105,
+        "homeRuns": 5,
+        "strikeOuts": 31,
+        "gamesPlayed": 26
+       }
+      },
+      {
+       "split": {
+        "code": "vr",
+        "description": "vs Right"
+       },
+       "stat": {
+        "plateAppearances": 245,
+        "homeRuns": 14,
+        "strikeOuts": 64,
+        "gamesPlayed": 61
+       }
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": 100036,
+   "fullName": "Kip Specimen",
+   "batSide": {
+    "code": "S"
+   },
+   "pitchHand": {
+    "code": "R"
+   },
+   "stats": [
+    {
+     "type": {
+      "displayName": "season"
+     },
+     "group": {
+      "displayName": "hitting"
+     },
+     "splits": [
+      {
+       "stat": {
+        "plateAppearances": 315,
+        "homeRuns": 13,
+        "strikeOuts": 89,
+        "gamesPlayed": 78
+       }
+      }
+     ]
+    },
+    {
+     "type": {
+      "displayName": "statSplits"
+     },
+     "group": {
+      "displayName": "hitting"
+     },
+     "splits": [
+      {
+       "split": {
+        "code": "vl",
+        "description": "vs Left"
+       },
+       "stat": {
+        "plateAppearances": 94,
+        "homeRuns": 4,
+        "strikeOuts": 26,
+        "gamesPlayed": 23
+       }
+      },
+      {
+       "split": {
+        "code": "vr",
+        "description": "vs Right"
+       },
+       "stat": {
+        "plateAppearances": 221,
+        "homeRuns": 9,
+        "strikeOuts": 63,
+        "gamesPlayed": 55
+       }
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": 100037,
+   "fullName": "Leo Sandbox",
+   "batSide": {
+    "code": "L"
+   },
+   "pitchHand": {
+    "code": "R"
+   },
+   "stats": [
+    {
+     "type": {
+      "displayName": "season"
+     },
+     "group": {
+      "displayName": "hitting"
+     },
+     "splits": [
+      {
+       "stat": {
+        "plateAppearances": 379,
+        "homeRuns": 6,
+        "strikeOuts": 70,
+        "gamesPlayed": 94
+       }
+      }
+     ]
+    },
+    {
+     "type": {
+      "displayName": "statSplits"
+     },
+     "group": {
+      "displayName": "hitting"
+     },
+     "splits": [
+      {
+       "split": {
+        "code": "vl",
+        "description": "vs Left"
+       },
+       "stat": {
+        "plateAppearances": 114,
+        "homeRuns": 2,
+        "strikeOuts": 19,
+        "gamesPlayed": 28
+       }
+      },
+      {
+       "split": {
+        "code": "vr",
+        "description": "vs Right"
+       },
+       "stat": {
+        "plateAppearances": 265,
+        "homeRuns": 4,
+        "strikeOuts": 51,
+        "gamesPlayed": 66
+       }
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": 100038,
+   "fullName": "Mack Synth",
+   "batSide": {
+    "code": "S"
+   },
+   "pitchHand": {
+    "code": "R"
+   },
+   "stats": [
+    {
+     "type": {
+      "displayName": "season"
+     },
+     "group": {
+      "displayName": "hitting"
+     },
+     "splits": [
+      {
+       "stat": {
+        "plateAppearances": 315,
+        "homeRuns": 10,
+        "strikeOuts": 87,
+        "gamesPlayed": 78
+       }
+      }
+     ]
+    },
+    {
+     "type": {
+      "displayName": "statSplits"
+     },
+     "group": {
+      "displayName": "hitting"
+     },
+     "splits": [
+      {
+       "split": {
+        "code": "vl",
+        "description": "vs Left"
+       },
+       "stat": {
+        "plateAppearances": 94,
+        "homeRuns": 3,
+        "strikeOuts": 29,
+        "gamesPlayed": 23
+       }
+      },
+      {
+       "split": {
+        "code": "vr",
+        "description": "vs Right"
+       },
+       "stat": {
+        "plateAppearances": 221,
+        "homeRuns": 7,
+        "strikeOuts": 58,
+        "gamesPlayed": 55
+       }
+      }
+     ]
+    }
+   ]
+  }
+ ]
+}
