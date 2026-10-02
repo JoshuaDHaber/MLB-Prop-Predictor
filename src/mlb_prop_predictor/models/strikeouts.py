@@ -27,9 +27,9 @@ from mlb_prop_predictor.models.common import (
 from mlb_prop_predictor.models.matchup import batter_hand_vs, expected_starter_bf, platoon_ratio
 
 PITCHER_K_PRIOR = 70
-PITCHER_PLATOON_PRIOR = 250
+PITCHER_PLATOON_PRIOR = 600
 BATTER_K_PRIOR = 60
-BATTER_PLATOON_PRIOR = 200
+BATTER_PLATOON_PRIOR = 600
 TEAM_K_PRIOR = 1000
 BF_SD = 3.5
 

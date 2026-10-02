@@ -29,10 +29,10 @@ from mlb_prop_predictor.models.matchup import (
 # Regression strengths, in PA / batters faced / implied PA of league-average performance.
 BATTER_HR_PRIOR = 200
 BATTER_BARREL_PRIOR = 120
-BATTER_PLATOON_PRIOR = 300
-PITCHER_HR_PRIOR = 700
+BATTER_PLATOON_PRIOR = 1500  # platoon skill is mostly noise; see The Book (Tango et al.)
+PITCHER_HR_PRIOR = 1300  # pitcher HR rate stabilizes slowly (~1,300 BF, Carleton)
 PITCHER_BARREL_PRIOR = 250
-PITCHER_PLATOON_PRIOR = 600
+PITCHER_PLATOON_PRIOR = 1500
 BULLPEN_PRIOR = 1500
 
 BATTER_BARREL_WEIGHT = 0.55
