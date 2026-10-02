@@ -1,0 +1,21 @@
+# --- Secrets: never commit these ---
+propfinder-config.json
+propfinder.json
+.propfinder.json
+propfinder-auth.json
+*.har
+.env
+.env.*
+
+# --- Generated reports / raw data ---
+home_run_report*
+gamscript.json
+*.xlsx
+
+# --- Python / editor ---
+.venv/
+venv/
+__pycache__/
+*.pyc
+.vscode/
+.DS_Store
