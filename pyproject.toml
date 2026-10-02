@@ -24,6 +24,7 @@ dev = ["pytest>=7", "ruff>=0.4"]
 
 [project.scripts]
 mlb-props = "mlb_prop_predictor.cli:main"
+mlb-backtest = "mlb_prop_predictor.backtest.cli:main"
 
 [tool.setuptools.packages.find]
 where = ["src"]
@@ -48,3 +49,4 @@ ignore = ["B905"]
 [tool.ruff.lint.per-file-ignores]
 # Embedded HTML/CSS templates read better unwrapped.
 "src/mlb_prop_predictor/report/writers.py" = ["E501"]
+"src/mlb_prop_predictor/backtest/runner.py" = ["E501"]

@@ -46,6 +46,19 @@ prints to the terminal.
 | `--demo` | Offline fictional slate |
 | `--open` | Open the HTML report when done |
 
+## Backtest
+
+```bash
+mlb-backtest --season 2025               # ~2,400 games; first run downloads play-by-play (cached after)
+mlb-backtest --season 2024 2025          # pool seasons
+```
+
+Replays past seasons day by day with the same projection code. Every game is projected using
+only stats from before that date, then scored against what happened. Metrics: Brier score,
+calibration by decile, AUC, strikeout MAE and interval coverage, each compared with
+league-average and raw-rate baselines. Writes `reports/backtest_<season>.md` and `.json`.
+See [docs/METHODOLOGY.md](docs/METHODOLOGY.md#backtest).
+
 ## Data sources
 
 | Data | Source | Cost |
@@ -77,8 +90,9 @@ src/mlb_prop_predictor/
 ├── sources/            # one module per API: mlb_stats, savant, weather, odds
 ├── models/             # pure functions: common math, park factors, matchup, home_runs, strikeouts
 ├── report/             # console, JSON, CSV and HTML writers
+├── backtest/           # walk-forward replay of past seasons + scoring
 └── demo/               # fictional fixtures + offline client
-tests/                  # unit tests for the math and parsers, plus end-to-end demo runs
+tests/                  # unit tests, end-to-end demo runs, simulated-season backtest check
 scripts/                # fixture generator
 docs/METHODOLOGY.md
 ```

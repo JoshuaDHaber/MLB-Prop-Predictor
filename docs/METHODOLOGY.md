@@ -21,10 +21,15 @@ noise (its stabilization point). Strikeout rate stabilizes fast, home run rate s
 |---|---|
 | Batter HR/PA | 200 PA |
 | Batter barrels/PA | 120 PA |
-| Pitcher HR/BF | 700 BF |
+| Pitcher HR/BF | 1,300 BF |
 | Pitcher K/BF | 70 BF |
 | Batter K/PA | 60 PA |
-| Platoon splits | 200–600, toward the player's *own* overall rate |
+| HR platoon splits | 1,500, toward the player's *own* overall rate |
+| K platoon splits | 600, toward the player's own overall rate |
+
+Platoon priors are deliberately heavy. *The Book* (Tango, Lichtman & Dolphin) shows most of an
+individual's observed platoon split is noise. The simulated-season check below found the model
+overconfident when they were lighter (300–600 PA).
 
 ### log5 (odds-ratio) matchups
 Bill James' log5 combines a batter's rate and a pitcher's rate relative to the league:
@@ -95,10 +100,46 @@ Wind is **not** modelled yet (see Limitations).
 - For strikeouts the "main" line is the one quoted by the most books, and the pick is
   whichever side has the higher EV.
 
+## Backtest
+
+`mlb-backtest --season 2025` replays a past season with **the same projection code** the daily
+report uses, and scores it against what actually happened.
+
+**No lookahead.** Games are processed date by date. Each day's games are projected from
+season-to-date stats accumulated from play-by-play *before* that date, and only then are that
+day's results added. Inputs from outside the season use earlier data only: park factors come
+from the three prior seasons, and barrel rates from the previous season's Statcast leaderboard.
+Handedness is treated as a known, fixed attribute.
+
+**Two simplifications, both standard for this kind of test:**
+- The actual starting pitcher and the posted lineup are used. In live use these are usually
+  known before odds are bet.
+- Recorded game-time temperature is used instead of a forecast.
+
+**What's scored**
+- *Home runs*: P(1+ HR) for every starting hitter vs whether he homered. Reported: Brier score,
+  log loss, Brier skill vs a league-average baseline, AUC, calibration by decile (with 95% CIs),
+  expected calibration error (ECE), and calibration slope/intercept from a logistic recalibration
+  fit (perfect = slope 1, intercept 0).
+- *Strikeouts*: expected Ks vs actual (MAE, RMSE, bias); calibration of P(Over) at lines
+  3.5–8.5; and how often the actual total lands inside the model's 80% interval.
+- Every metric is compared with two baselines: **league average**, and the player's **raw
+  season-to-date rate** (no regression, no matchup). Beating the raw rate shows what the
+  modelling adds.
+
+**Reading the numbers.** Home runs are mostly luck at the single-game level, even for the best
+hitters, so Brier skill scores in the low single digits are normal. The meaningful claims are
+calibration (when the model says 20%, it happens about 20% of the time) and ranking (AUC above
+0.5, with top-decile projections homering far more often than the bottom decile).
+
+**Validated on a simulated season first.** `tests/sim_season.py` generates a season in which every
+player's true HR and K rates are known, then runs the full backtest on it. A leak-free, correctly
+wired backtest should come out close to calibrated, and the test suite asserts that it does.
+
 ## Limitations and roadmap
 - No wind direction yet. That needs each park's home-plate-to-center-field bearing.
 - Platoon splits use results (HR, K), not Statcast quality-of-contact by handedness.
 - Starter workload ignores pitch-count trends, injuries and bullpen days announced late.
 - No pitch-type matchup (e.g. a hitter's damage vs sliders × a pitcher's slider usage).
-- No backtest yet. The next step is to log daily projections and closing lines, then
-  measure calibration (Brier score, reliability curve) and closing-line value.
+- The backtest measures accuracy against outcomes, not against betting markets.
+  Historical prop odds cost 10x credits on The Odds API, so closing-line value isn't measured yet.
